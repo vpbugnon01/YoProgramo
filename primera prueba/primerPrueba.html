@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title> Título de primera página HTML </title>
+        <meta name="description" content="Página web desde 0 creada por Valentín Bugnon! :)"/>
+        <meta name="author" content="Bugnon Valentín, vpbugnon@gmail.com"/>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="primerPrueba.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+ 
+</head>
+        
+
+    </head>    
+    <body>
+        <div class="container">
+            <header>
+                <div class="row">
+                    <div class="col-8 align-bottom">
+                        <h2>Encabezado</h2>
+                    </div>
+                    <div class="col-4">
+                        <img src="https://www.concordia.gob.ar/sites/all/themes/programar/images/arg-programa.png" alt="argentina programa">                   
+                    </div>
+
+        
+                </div>
+                <div class="row">
+                    <p><a href="https://argentinaprograma.inti.gob.ar/">Argentina Programa!</a></p>
+                </div>
+            </header>
+
+        </div>
+        
+
+        <section>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col">
+                        <h3>Section del documento</h3>
+                    </div>
+                </div>
+            
+                <div class="row">
+                    <div class="col-12">
+                        <article class="lista">
+                            <h4>Article: Ordered lists</h4>
+                            <h2>Listas ordenadas</h2>
+                    </div>
+                </div>
+                <div class="row justify-content-around">
+                    <div class="col-3">
+                        <p>La lista debe ir desde la letra "a" hasta la "d"</p>
+                            <ol type="a">
+                                <li>Elemento 1</li>
+                                <li>Elemento 2</li>
+                                <li id="elemc">Elemento 3</li>
+                                <li>Elemento 4</li>
+                            </ol>
+                    </div>
+                    <div class="col-3">
+                            <p class="descendente">La lista debe ir desde 100 hasta 97</p>
+                                <ol start="100" reversed>
+                                    <li>Elemento 1</li>
+                                    <li>Elemento 2</li>
+                                    <li>Elemento 3</li>
+                                    <li>Elemento 4</li>
+                                </ol>
+                    </div>
+                    <div class="col-3">
+                        <p>La lista debe ir desde A hasta D</p>
+                            <ol type="A">
+                                <li>Elemento 1</li>
+                                <li>Elemento 2</li>
+                                <li>Elemento 3</li>
+                                <li>Elemento 4</li>
+                            </ol>
+                    </div>
+                    <div class="col-3">
+                        <p class="descendente">La lista debe ir desde z hasta w</p>
+                            <ol type="a" start="26" reversed>
+                                <li>Elemento 1</li>
+                                <li>Elemento 2</li>
+                                <li>Elemento 3</li>
+                                <li>Elemento 4</li>
+                            </ol>
+                    </div>
+            
+                </div>
+            </div>
+                <p>Definiciones:</p>
+                    <dl>
+                        <dt>Definición:</dt>
+                        <dd>Definición del término previamente nombrado</dd>
+                    </dl>
+            </article>
+<!--            
+            <article>
+                <h4>Article: iframe(Not working for now, we're working to fix it :))</h4>
+                <iframe src="https://goo.gl/maps/shmeueW21LJKuKzo6" frameborder="5" allowfullscreen title="Mapa de mi barrio.">Mapa de mi barrio: </iframe>
+
+            </article>
+-->                             
+        </section>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-sm-6">col-sm-6</div>
+                <div class="col-sm-6">col-sm-6</div>
+            </div>
+            <div class="row">
+                <div class="col-xxl-6">col-xxl-6</div>
+                <div class="col-xxl-6">col-xxl-6</div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">.col-md-6</div>
+                <div class="col-md-6">.col-md-6</div>
+            </div>
+        </div>
+        <div class="container">
+            <table class="table table-borderless table-sm">
+                <thead>
+                    <tr>
+                        <th scope="col">Numero</th>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Apellido</th>
+                    </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                    <tr> 
+                        <th scope="row">1</th>
+                        <td>BUGNON</td>
+                        <td>Valentín</td>
+                    </tr>
+                    <tr class="table-danger">
+                        <th scope="row">2</th>
+                        <td>BUGNON</td>
+                        <td>Paulina</td>
+                    </tr>
+                    <tr class="table-success">
+                        <th scope="row">3</th>
+                        <td>B</td>
+                        <td>A</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="container">
+            <table class="table table-borderless table-dark  table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">Numero</th>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Apellido</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr> 
+                        <th scope="row">1</th>
+                        <td>BUGNON</td>
+                        <td>Valentín</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>BUGNON</td>
+                        <td>Paulina</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>B</td>
+                        <td>A</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="container">
+            <figure class="figure">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/68/Escudo_Colon_Con_Estrella.png" class="figure-img img-fluid rounded" alt="Colon de Santa Fe">
+    
+                <figcaption class="figure-caption text-end">Colon de Santa Fe </figcaption>
+            </figure>
+        </div>
+        <footer>
+            <p>Author: BUGNON, Valentín Pablo.</p>
+            <address>vpbugnon@gmail.com</address>
+        </footer>
+
+    </body>
+</html>
